@@ -1,12 +1,12 @@
 import 'package:mysql_client/mysql_client.dart';
 
 class Conexao {
-  final String url = "gabtechinfo.com";
+  final String url = "host";
   final int porta = 3306;
-  final String usuario = "gabtech_pdv";
-  final String senha = "Aula2024()";
+  final String usuario = "nome de usuario";
+  final String senha = "senha";
   final int maximoConexoes = 10;
-  final String banco = "gabtech_pdv_aula";
+  final String banco = "banco de dados";
 
   Future<MySQLConnection> conectar() async {
     try {
